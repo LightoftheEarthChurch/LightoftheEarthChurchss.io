@@ -1,0 +1,209 @@
+/* MobileStyle.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    margin-left: 40rem;
+    margin-top: -0.8rem ;
+}
+
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+   
+    display: block;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.pastor-imag {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Define styles for the moving paragraph container */
+.moving-paragraph {
+    width: 100%;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Define styles for the paragraph */
+.moving-paragraph p {
+    font-size: 24px; /* Adjust the font size as needed */
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: moveParagraph 15s linear infinite; /* Apply the animation */
+}
+
+/* Keyframes for the paragraph animation */
+@keyframes moveParagraph {
+    0% {
+        transform: translateX(100%); /* Start from the right side */
+    }
+    100% {
+        transform: translateX(-100%); /* Move to the left */
+    }
+}
+
+.THEME-YEAR{
+    font-size: 6rem;
+    font-style: italic;
+    margin-top: -1rem;
+}
+
+.Vision1 {
+    font-size: 3.7rem;
+    font-style: italic;
+    margin-top: -4rem;
+}
+
+.PV1 {
+    font-size: x-large;
+    font-style: normal;
+    margin-left: 15rem;
+    margin-top: -3rem;
+   
+}
+
+.PV2 {
+    font-size: x-large;
+    font-style: normal;
+    margin-left: 15rem;
+   
+}
+
+.PV3 {
+    font-size: x-large;
+    font-style: normal;
+    margin-left: 15rem; 
+
+}
+
+.pastor-imag {
+    width: 400px;
+    height: 400px;
+    margin-left: 51rem; 
+    margin-top: -50rem;
+} 
+.Our-Leaders{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: inherit;
+    font-stretch: semi-expanded;
+}
+
+.Prayer1 {
+margin-left: 30rem;
+}
+
+.Prayer2 {
+  margin-left: 30rem;
+ }
+
+.Prayer3 {
+  margin-left: 30rem;
+ }
+
+.Prayer4 {
+  margin-left: 30rem;
+ }
+
+ 
+.background {
+  background-color: rgb(243, 233, 217);
+}
+  
+
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header .logo {
+        text-align: center;
+    }
+
+    header .logo img {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .moving-paragraph p {
+        font-size: 18px;
+    }
+
+    /* Additional responsive styles for other sections can be added here */
+}

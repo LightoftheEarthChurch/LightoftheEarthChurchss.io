@@ -1,0 +1,184 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Define styles for the moving paragraph container */
+.moving-paragraph {
+    width: 100%;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Define styles for the paragraph */
+.moving-paragraph p {
+    font-size: 24px; /* Adjust the font size as needed */
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: moveParagraph 15s linear infinite; /* Apply the animation */
+}
+
+/* Keyframes for the paragraph animation */
+@keyframes moveParagraph {
+    0% {
+        transform: translateX(100%); /* Start from the right side */
+    }
+    100% {
+        transform: translateX(-100%); /* Move to the left */
+    }
+}
+
+nav ul {
+    display: inline-block;
+    padding:  1rem;
+    margin-left: 40rem;
+    margin-top: -0.8rem ;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.THEME-YEAR{
+    font-size: 7rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.Vision1 {
+    font-size: 3.7rem;
+    font-style: italic;
+}
+
+.PV1 {
+    font-size: x-large;
+    font-style: normal;
+    margin-left: 15rem;
+   
+}
+
+.PV2 {
+    font-size: x-large;
+    font-style: normal;
+    margin-left: 15rem;
+   
+}
+
+.PV3 {
+    font-size: x-large;
+    font-style: normal;
+    margin-left: 15rem;
+    
+
+}
+
+.Our-Leaders{
+      font-size: xx-large;
+      font-weight: bold;
+      font-style: inherit;
+      font-stretch: semi-expanded;
+}
+
+.Prayer1 {
+ margin-left: 30rem;
+}
+
+.Prayer2 {
+    margin-left: 30rem;
+   }
+
+.Prayer3 {
+    margin-left: 30rem;
+   }
+
+.Prayer4 {
+    margin-left: 30rem;
+   }
+
+   
+.background {
+    background-color: rgb(243, 233, 217);
+}
+
+
+section {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto 0;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.pastor-imag {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (maz-width: 600px) {
+    section {
+        width: 100%; 
+    } 
+   .Our-Leaders{
+    width: 100%;
+    height: auto;
+   }   
+   .Sunday{
+    width: 100%;
+    height: auto;
+   }
+   .MP{
+    width: 100%;
+    height: auto;
+   }
+   .Wednes{
+    width: 100%;
+    height: auto;
+   }
+   .Friday{
+    width: 100%;
+    height: auto;
+   }
+   .Video{
+    width: 100%;
+    height: auto;
+   }
+   .background-image{
+    width: 100%;
+    height: auto;
+   }
+   .fa-facebook{
+    width: 100%;
+    height: auto;
+   }
+}
+/*<600px, 610px, 768px, 992, 1200px*/
+
+@media (maz-width: 768px) {
+    section {
+        width: 100%; 
+    }   
+
+    .nav ul li {
+
+        border-radius: 1em;
+  
+  }
+  
+}
+
+@media (maz-width: 992px) {
+    section {
+        width: 100%; 
+        background-color: grey;
+    }   
+}
